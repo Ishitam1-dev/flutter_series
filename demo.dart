@@ -4,6 +4,7 @@ class DemoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         tooltip: "add card",
